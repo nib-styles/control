@@ -1,0 +1,14 @@
+{
+  "name": "nib-styles-control",
+  "styles": [
+    "index.css"
+  ],
+  "files": [
+    "img/alert.png",
+    "img/alert.svg",
+    "img/tick.png",
+    "img/tick.svg"
+  ],
+  "dependencies": {
+  }
+}
