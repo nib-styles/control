@@ -24,12 +24,21 @@
 }
 
 .control.is-invalid .control-feedback-icon {
-  background-image: url('img/alert.png');
+  background-image: url('img/alert.svg');
 }
 
 .control.is-valid .control-feedback-icon {
+  background-image: url('img/tick.svg');
+}
+
+.no-svg .control.is-invalid .control-feedback-icon {
+  background-image: url('img/alert.png');
+}
+
+.no-svg .control.is-valid .control-feedback-icon {
   background-image: url('img/tick.png');
 }
+
 
 /* CONTROL: FEEDBACK MESSAGE */
 
