@@ -102,6 +102,7 @@
   line-height: 16px;
   font-size: 16px;
   outline: none;
+  border-radius: 0;
 }
 
 .control-input--text:focus {
