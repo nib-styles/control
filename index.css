@@ -88,6 +88,7 @@
 /* CONTROL: TEXT INPUT */
 
 .control-input {
+  box-sizing: border-box;
   height: 32px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -95,7 +96,6 @@
 
 .control-input--text {
   display: block;
-  box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 0 26px 0 10px;
