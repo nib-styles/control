@@ -109,13 +109,13 @@
 }
 
 
-.control-input--radio {
+.control-input--option {
   display: inline-block;
   line-height: 32px;
   padding: 0 36px 0 10px;
 }
 
-.control-input--radio.control-input--horizontal .control-input__option:last-child {
+.control-input--option.control-input--horizontal .control-input__option:last-child {
   margin-left: 10px;
 }
 
