@@ -87,20 +87,35 @@
 
 /* CONTROL: TEXT INPUT */
 
+.control-input {
+  height: 32px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
 .control-input--text {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 32px;
   margin: 0;
   padding: 0 26px 0 10px;
   line-height: 16px;
   font-size: 16px;
-  border: 1px solid #ddd;
-  background-color: #fff;
   outline: none;
 }
 
 .control-input--text:focus {
   border: 1px solid #2ea7e5;
 }
+
+
+.control-input--radio {
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 36px 0 10px;
+}
+
+.control-input--radio.control-input--horizontal .control-input__option:last-child {
+  margin-left: 10px;
+}
+
