@@ -63,15 +63,14 @@
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
-  transition: height 0.5s;
   height: 0;
   font-size: 14px;
   color: #fff;
   background-color: #cc2929;
 }
 
-.no-csstransitions .control-feedback-message {
-  transition-property: none;
+.csstransitions .control-feedback-message {
+  transition: height 0.5s;
 }
 
 .control-feedback-message__text {
