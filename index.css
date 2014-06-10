@@ -70,6 +70,10 @@
   background-color: #cc2929;
 }
 
+.no-csstransitions .control-feedback-message {
+  transition-property: none;
+}
+
 .control-feedback-message__text {
   margin: 0;
   padding: 10px;
