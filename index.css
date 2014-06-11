@@ -3,7 +3,14 @@
 
 .control {
   position: relative;
+  margin-bottom: 20px;
+  transform: translate3d(0, 0, 0); /* use GPU on iOS for smoother transitions */
 }
+
+.control .control-input-wrapper {
+  position: relative
+}
+
 
 /* CONTROL: LABEL */
 
