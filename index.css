@@ -23,6 +23,10 @@
   height: 16px;
 }
 
+.control-feedback-icon--outside {
+  right: -22px;
+}
+
 .control.is-invalid .control-feedback-icon {
   background-image: url('img/alert.svg');
 }
