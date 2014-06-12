@@ -104,31 +104,31 @@
 .control-input {
   box-sizing: border-box;
   height: 32px;
-  border: 1px solid #ddd;
-  background-color: #fff;
+  padding: 0 10px; 
   font-size: 16px;
   line-height: 16px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  background-color: #fff;
+  -webkit-appearance: none;
 }
 
 .control-input--text {
   display: block;
   width: 100%;
   margin: 0;
-  padding: 0 26px 0 10px;
-  outline: none;
-  border-radius: 0;
-  -webkit-appearance: none;
+  padding-right: 26px;
 }
 
 .control-input--text:focus {
   border: 1px solid #2ea7e5;
 }
 
-
 .control-input--option {
   display: inline-block;
   line-height: 32px;
-  padding: 0 36px 0 10px;
+  padding-right: 36px;
 }
 
 .control-input--option.control-input--horizontal .control-input__option:last-child {
