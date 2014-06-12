@@ -11,7 +11,6 @@
   position: relative
 }
 
-
 /* CONTROL: LABEL */
 
 .control-label {
@@ -105,7 +104,7 @@
   box-sizing: border-box;
   height: 32px;
   margin: 0;
-  padding: 0 10px 0 0;
+  padding: 0 0 0 10px;
   font-size: 16px;
   outline: none;
   border: 1px solid #ddd;
