@@ -104,21 +104,21 @@
 .control-input {
   box-sizing: border-box;
   height: 32px;
-  padding: 0 10px; 
+  margin: 0;
+  padding: 0 10px 0 0;
   font-size: 16px;
-  line-height: 16px;
   outline: none;
   border: 1px solid #ddd;
   border-radius: 0;
   background-color: #fff;
-  -webkit-appearance: none;
 }
 
 .control-input--text {
   display: block;
   width: 100%;
-  margin: 0;
   padding-right: 26px;
+  line-height: 16px;
+  -webkit-appearance: none;
 }
 
 .control-input--text:focus {
