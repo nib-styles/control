@@ -106,6 +106,8 @@
   height: 32px;
   border: 1px solid #ddd;
   background-color: #fff;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .control-input--text {
@@ -113,8 +115,6 @@
   width: 100%;
   margin: 0;
   padding: 0 26px 0 10px;
-  line-height: 16px;
-  font-size: 16px;
   outline: none;
   border-radius: 0;
   -webkit-appearance: none;
