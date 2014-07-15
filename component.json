@@ -1,14 +1,12 @@
 {
-  "name": "nib-styles-control",
-  "styles": [
-    "index.css"
-  ],
-  "files": [
+  "name": "control",
+  "styles": ["index.css"],
+  "images": [
     "img/alert.png",
     "img/alert.svg",
-    "img/tick.png",
-    "img/tick.svg"
-  ],
-  "dependencies": {
-  }
+    "img/tick_green.png",
+    "img/tick_green.svg",
+    "img/tick_white.png",
+    "img/tick_white.svg"
+  ]
 }

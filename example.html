@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Control Styling</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,300,700" rel="stylesheet" type="text/css">
+    <link href="build/build.css" rel="stylesheet" type="text/css"/>
+    <style>
+
+        html {
+            padding: 1em;
+            background-color: #fff;
+        }
+
+        body {
+            padding: 1em;
+            font-family: "open sans", sans-serif;
+            border: 3px solid #fff;
+            outline: 3px solid #009623;
+            background-color: #009623;
+        }
+
+        h1, h2 {
+            margin-top: 0.25em;
+            margin-bottom: 0.5em;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        .ib {
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Textbox</h1>
+
+    <div class="control">
+        <label class="control-label" for="first-name-input">First name</label>
+
+        <div class="control-input-wrapper">
+            <input type="text" class="control-input control-input--text" id="first-name-input" autofocus/>
+            <div class="control-feedback-icon no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+        </div>
+
+        <div class="control-feedback-message no-select">
+            <p class="control-feedback-message__text"></p>
+        </div>
+    </div>
+
+    <div class="control is-valid">
+        <label class="control-label" for="last-name-input">Last name</label>
+
+        <div class="control-input-wrapper">
+            <input type="text" class="control-input control-input--text" id="last-name-input" autofocus/>
+            <div class="control-feedback-icon no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+        </div>
+
+        <div class="control-feedback-message no-select">
+            <p class="control-feedback-message__text"></p>
+        </div>
+    </div>
+
+    <div class="control is-invalid">
+        <label class="control-label" for="email-input">Email address</label>
+
+        <div class="control-input-wrapper">
+            <input type="email" class="control-input control-input--text" id="email-input" />
+            <div class="control-feedback-icon no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+        </div>
+
+        <div class="control-feedback-message no-select" style="height: auto;">
+            <p class="control-feedback-message__text">Uh oh!</p>
+        </div>
+    </div>
+
+    <h1>Options</h1>
+    <h2>Horizontal</h2>
+
+    <div class="control">
+        <label class="control-label">Gender</label>
+
+        <div class="control-input-wrapper ib">
+
+            <div class="control-input control-input--option">
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Male"/> Male
+                </label>
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Female"/> Female
+                </label>
+            </div>
+
+            <div class="control-feedback-icon control-feedback-icon--outside no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+
+        </div>
+
+        <div class="control-feedback-message no-select">
+            <p class="control-feedback-message__text"></p>
+        </div>
+    </div>
+
+    <div class="control is-valid">
+        <label class="control-label">Gender</label>
+
+        <div class="control-input-wrapper ib">
+
+            <div class="control-input control-input--option">
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Male" checked/> Male
+                </label>
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Female"/> Female
+                </label>
+            </div>
+
+            <div class="control-feedback-icon control-feedback-icon--outside no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+
+        </div>
+
+        <div class="control-feedback-message no-select">
+            <p class="control-feedback-message__text"></p>
+        </div>
+    </div>
+
+    <div class="control is-invalid">
+        <label class="control-label">Gender</label>
+
+        <div class="control-input-wrapper ib">
+
+            <div class="control-input control-input--option">
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Male"/> Male
+                </label>
+                <label class="control-input__option">
+                    <input type="radio" class="" name="gender" value="Female"/> Female
+                </label>
+            </div>
+
+            <div class="control-feedback-icon control-feedback-icon--outside no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+
+        </div>
+
+        <div class="control-feedback-message no-select" style="height: auto">
+            <p class="control-feedback-message__text">Uh oh!</p>
+        </div>
+    </div>
+
+</body>
+</html>
