@@ -33,7 +33,7 @@
 }
 
 .control-feedback-icon--outside {
-  right: -22px;
+  right: -28px;
 }
 
 .control.is-invalid .control-feedback-icon {
@@ -132,7 +132,7 @@
   -webkit-appearance: none;
 }
 
-/* CONTROL: INPUT: OPITON */
+/* CONTROL: INPUT: OPTION */
 
 .control-input--option {
   display: inline-block;
@@ -145,11 +145,18 @@
   background-color: #009623;
 }
 
+.control.is-invalid .control-input--option {
+  background-color: inherit;
+}
+
 .control-input--option .control-input__option {
   display: block;
   float: left;
   height: 100%;
   padding: 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
   border-right: 2px solid #fff;
 }
 
@@ -161,7 +168,7 @@
 }
 
 .control-input--option .control-input__option input {
-  vertical-align: baseline;
+  vertical-align: text-top;
 }
 
 /* CONTROL: INPUT: DATE */
