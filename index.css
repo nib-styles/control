@@ -60,33 +60,30 @@
   background-image: url('img/tick_white.png');
 }
 
-/* CONTROL: FEEDBACK MESSAGE */
+/* CONTROL: FEEDBACK POINTER */
 
-.control-feedback-pointer {
-  display: none;
-  position: absolute;
-  bottom: -12px;
-  left: 1.5px;
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
+.control-feedback-message .tip--direction-up {
+  margin-top: 6px;
+  border-left-width: 6px;
+  border-right-width: 6px;
   border-bottom: 6px solid #a40051;
 }
 
-.control.is-invalid .control-feedback-pointer {
-  display: block;
-}
-
-/* CONTROL: FEEDBACK POINTER */
+/* CONTROL: FEEDBACK MESSAGE */
 
 .control-feedback-message {
   box-sizing: border-box;
-  position: relative;
   overflow: hidden;
   height: 0;
   font-size: 14px;
   color: #fff;
+}
+
+.control-feedback-message.is-info {
+  background-color: #03687a;
+}
+
+.control-feedback-message.is-error {
   background-color: #a40051;
 }
 
