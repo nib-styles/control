@@ -166,14 +166,14 @@
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
 }
 
-.control-input--option .control-input__option:last-child {
+.control-input--option .control-input__option:first-child {
   display: inline-block;
   height: 100%;
   padding: 0 10px;
-  border-right: none;
+  border-left: none;
 }
 
 .control-input--option .control-input__option input {
