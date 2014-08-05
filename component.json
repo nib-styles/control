@@ -9,5 +9,10 @@
     "img/tick_white.png",
     "img/tick_white.svg",
     "img/loader-green.gif"
-  ]
+  ],
+  "development": {
+    "dependencies": {
+      "nib-health-funds/tip": "*"
+    }
+  }
 }

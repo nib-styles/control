@@ -9,6 +9,7 @@
 
 .control .control-input-wrapper {
   position: relative;
+  vertical-align: top;
 }
 
 /* CONTROL: LABEL */
