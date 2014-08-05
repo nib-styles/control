@@ -60,6 +60,10 @@
   background-image: url('img/tick_white.png');
 }
 
+.control.is-loading .control-feedback-icon {
+  background-image: url('img/loader-green.gif');
+}
+
 /* CONTROL: FEEDBACK POINTER */
 
 .control-feedback-message .tip--direction-up {
