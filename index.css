@@ -187,56 +187,7 @@
   line-height: 30px;
 }
 
-/* CONTROL: HELP MESSAGING === */
-
-.control-help-trigger {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.control-help-tip {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 20px;
-  border-style: solid;
-  border-width: 0 6px 6px 6px;
-  border-color: transparent transparent #444 transparent;
-}
-
-.control-help-message {
-  position: static;
-  overflow: hidden;
-  margin-top: 11px;
-  color: #fff;
-  font-weight: 300;
-  text-transform: none;
-  background-color: #444;
-  transition: height 0.5s, margin-top 0.75s;
-  font-size: 14px;
-}
-
-.control-help-message--in-a-box {
-    margin-top: 0px;
-}
-
-.control-help-message.is-collapsed {
-  height: 0;
-  margin-top: 0;
-}
-
-.control-help-message p {
-  margin: 0;
-  padding: 10px;
-}
-
-.control-help-message .tip--direction-up {
-    margin-top: 3px;
-    border-left-width: 8px;
-    border-right-width: 8px;
-    border-bottom-width: 8px;
-    border-bottom-color: #444;
-}
+/* CONTROL:  MESSAGING === */
 
 .control-required-message {
   float: right;
