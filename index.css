@@ -14,7 +14,7 @@
 
 /* CONTROL: LABEL */
 
-.control-label {
+.control-label, .control__label {
   display: block;
   margin-bottom: 5px;
   color: #fff;
