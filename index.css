@@ -65,6 +65,10 @@
   background-image: url('img/loader-green.gif');
 }
 
+.control.is-loading .control-feedback-icon.control-feedback-icon--outside {
+  background-image: url('img/loader-white-on-green.gif');
+}
+
 /* CONTROL: FEEDBACK POINTER */
 
 .control-feedback-message .tip--direction-up {
