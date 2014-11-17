@@ -38,10 +38,10 @@
     <h1>Textbox</h1>
 
     <div class="control">
-        <label class="control-label" for="first-name-input">First name</label>
+        <label class="control__label" for="first-name-input">First name</label>
 
-        <div class="control-input-wrapper">
-            <input type="text" class="control-input control-input--text" id="first-name-input" autofocus/>
+        <div class="control__input">
+            <input type="text" class="control-input-text" id="first-name-input" autofocus/>
             <div class="control-feedback-icon no-select">
                 <div class="control-feedback-pointer"></div>
             </div>
@@ -53,13 +53,11 @@
     </div>
 
     <div class="control is-valid">
-        <label class="control-label" for="last-name-input">Last name</label>
+        <label class="control__label" for="last-name-input">Last name</label>
 
-        <div class="control-input-wrapper">
-            <input type="text" class="control-input control-input--text" id="last-name-input" autofocus/>
-            <div class="control-feedback-icon no-select">
-                <div class="control-feedback-pointer"></div>
-            </div>
+        <div class="control__input">
+            <input type="text" class="control-input-text" id="last-name-input" autofocus/>
+            <i class="control-feedback-icon control-feedback-icon--inside no-select"></i>
         </div>
 
         <div class="control-feedback-message no-select">
@@ -68,13 +66,11 @@
     </div>
 
     <div class="control is-invalid">
-        <label class="control-label" for="email-input">Email address</label>
+        <label class="control__label" for="date-input">Date of birth</label>
 
-        <div class="control-input-wrapper">
-            <input type="email" class="control-input control-input--text" id="email-input" />
-            <div class="control-feedback-icon no-select">
-                <div class="control-feedback-pointer"></div>
-            </div>
+        <div class="control__input">
+            <input type="email" class="control-input-text control-input-text--date" id="date-input" />
+            <i class="control-feedback-icon control-feedback-icon--inside no-select"></i>
         </div>
 
         <div class="control-feedback-message is-error no-select" style="height: auto;">
@@ -83,13 +79,11 @@
     </div>
 
     <div class="control">
-        <label class="control-label" for="email2-input">Email address</label>
+        <label class="control__label" for="email2-input">Email address</label>
 
-        <div class="control-input-wrapper">
-            <input type="email" class="control-input control-input--text" id="email2-input" />
-            <div class="control-feedback-icon no-select">
-                <div class="control-feedback-pointer"></div>
-            </div>
+        <div class="control__input">
+            <input type="email" class="control-input-text" id="email2-input" />
+            <i class="control-feedback-icon control-feedback-icon--inside no-select"></i>
         </div>
 
         <div class="control-feedback-message is-info no-select" style="height: auto;">
@@ -98,13 +92,11 @@
     </div>
 
     <div class="control is-loading">
-        <label class="control-label" for="email3-input">Email address</label>
+        <label class="control__label" for="email3-input">Email address</label>
 
-        <div class="control-input-wrapper">
-            <input type="email" class="control-input control-input--text" id="email3-input" />
-            <div class="control-feedback-icon no-select">
-                <div class="control-feedback-pointer"></div>
-            </div>
+        <div class="control__input">
+            <input type="email" class="control-input-text" id="email3-input" />
+            <i class="control-feedback-icon control-feedback-icon--inside no-select"></i>
         </div>
 
         <div class="control-feedback-message is-info no-select" style="height: 0px;">
@@ -116,15 +108,15 @@
     <h2>Horizontal</h2>
 
     <div class="control">
-        <label class="control-label">Gender</label>
+        <label class="control__label">Gender</label>
 
-        <div class="control-input-wrapper ib">
+        <div class="control__input ib">
 
-            <div class="control-input control-input--option">
-                <label class="control-input__option">
+            <div class="control-input--option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Male"/> Male
                 </label>
-                <label class="control-input__option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Female"/> Female
                 </label>
             </div>
@@ -141,15 +133,15 @@
     </div>
 
     <div class="control is-loading">
-        <label class="control-label">Gender</label>
+        <label class="control__label">Gender</label>
 
-        <div class="control-input-wrapper ib">
+        <div class="control__input ib">
 
-            <div class="control-input control-input--option">
-                <label class="control-input__option">
+            <div class="control-input--option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Male" checked/> Male
                 </label>
-                <label class="control-input__option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Female"/> Female
                 </label>
             </div>
@@ -166,15 +158,15 @@
     </div>
 
     <div class="control is-valid">
-        <label class="control-label">Gender</label>
+        <label class="control__label">Gender</label>
 
-        <div class="control-input-wrapper ib">
+        <div class="control__input ib">
 
-            <div class="control-input control-input--option">
-                <label class="control-input__option">
+            <div class="control-input--option">
+                <label class="control-input-option is-selected">
                     <input type="radio" class="" name="gender" value="Male" checked/> Male
                 </label>
-                <label class="control-input__option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Female"/> Female
                 </label>
             </div>
@@ -191,15 +183,15 @@
     </div>
 
     <div class="control is-invalid">
-        <label class="control-label">Gender</label>
+        <label class="control__label">Gender</label>
 
-        <div class="control-input-wrapper ib">
+        <div class="control__input ib">
 
-            <div class="control-input control-input--option">
-                <label class="control-input__option">
+            <div class="control-input--option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Male"/> Male
                 </label>
-                <label class="control-input__option">
+                <label class="control-input-option">
                     <input type="radio" class="" name="gender" value="Female"/> Female
                 </label>
             </div>
@@ -211,8 +203,30 @@
         </div>
 
         <div class="control-feedback-message no-select is-error" style="height: auto">
-            <div class="tip tip--direction-up tip--position-bottom" style="left: 208px; top: 54px;"></div>
+            <div class="tip tip--direction-up tip--position-bottom" style="left: 204px; top: 51px;"></div>
             <p class="control-feedback-message__text">Uh oh!</p>
+        </div>
+    </div>
+
+    <div class="control">
+        <label class="control__label">User Agreement</label>
+
+        <div class="control__input ib">
+
+            <div class="control-input--option">
+                <label class="control-input-option">
+                    <input type="checkbox" class="" name="accept" value="True"/> I accept the user agreement
+                </label>
+            </div>
+
+            <div class="control-feedback-icon control-feedback-icon--outside no-select">
+                <div class="control-feedback-pointer"></div>
+            </div>
+
+        </div>
+
+        <div class="control-feedback-message no-select">
+            <p class="control-feedback-message__text"></p>
         </div>
     </div>
 

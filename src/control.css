@@ -1,0 +1,126 @@
+
+/* === CONTROL === */
+
+.control {
+  position: relative;
+  margin-bottom: 30px;
+  transform: translate3d(0, 0, 0); /* use GPU on iOS for smoother transitions */
+}
+
+/* === CONTROL: LABEL === */
+
+.control__label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+/* === CONTROL: INPUT === */
+
+.control__input {
+  position: relative;
+  vertical-align: top;
+}
+
+/* === CONTROL: FEEDBACK ICON === */
+
+.control-feedback-icon {
+  position: absolute;
+  top: 12px;
+  width: 16px;
+  height: 16px;
+}
+
+.control-feedback-icon--inside {
+  right: 6px;
+}
+
+.control-feedback-icon--outside {
+  right: -28px;
+}
+
+/* can we use the nibdings font for these icons??? */
+
+.control.is-invalid .control-feedback-icon {
+  background-image: url('../img/alert.svg');
+}
+
+.no-svg .control.is-invalid .control-feedback-icon {
+  background-image: url('../img/alert.png');
+}
+
+.control.is-valid .control-feedback-icon {
+  background-image: url('../img/tick_green.svg');
+}
+
+.no-svg .control.is-valid .control-feedback-icon {
+  background-image: url('../img/tick_green.png');
+}
+
+.control.is-valid .control-feedback-icon--outside {
+  background-image: url('../img/tick_white.svg');
+}
+
+.no-svg .control.is-valid .control-feedback-icon--outside {
+  background-image: url('../img/tick_white.png');
+}
+
+.control.is-loading .control-feedback-icon {
+  background-image: url('../img/loader-green.gif');
+}
+
+.control.is-loading .control-feedback-icon.control-feedback-icon--outside {
+  background-image: url('../img/loader-white-on-green.gif');
+}
+
+/* === CONTROL: FEEDBACK TIP === */
+
+.control-feedback-message .tip--direction-up {
+  margin-top: 6px;
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-bottom-width: 6px;
+}
+
+.control-feedback-message.is-error .tip {
+  border-bottom-color: #a40051;
+}
+
+.control-feedback-message.is-info .tip {
+  border-bottom-color: #03687a;
+}
+
+/* === CONTROL: FEEDBACK MESSAGE === */
+
+.control-feedback-message {
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.control-feedback-message.is-info {
+  background-color: #03687a;
+}
+
+.control-feedback-message.is-error {
+  background-color: #a40051;
+}
+
+.csstransitions .control-feedback-message {
+  transition: height 0.5s;
+}
+
+.control-feedback-message__text {
+  margin: 0;
+  padding: 10px;
+}
+
+.control.is-invalid .control-feedback-message {
+  display: block;
+}

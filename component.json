@@ -1,6 +1,11 @@
 {
   "name": "control",
-  "styles": ["index.css"],
+  "styles": [
+    "index.css",
+    "src/control.css",
+    "src/control-input-text.css",
+    "src/control-input-option.css"
+  ],
   "images": [
     "img/alert.png",
     "img/alert.svg",
@@ -10,10 +15,6 @@
     "img/tick_white.svg",
     "img/loader-green.gif",
     "img/loader-white-on-green.gif"
-  ],
-  "development": {
-    "dependencies": {
-
-    }
+  ]
   }
 }

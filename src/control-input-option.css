@@ -1,0 +1,59 @@
+
+/* remove existing join styles */
+.control-input--option {
+  height: auto;
+  border: none !important;
+}
+.control-input__option + .control-input__option {
+  border-color: transparent;
+}
+
+/* === Control input option === */
+
+.control-input--option {
+}
+
+.control-input-option {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #00781c;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background 0.1s ease-in;
+  line-height: 40px;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.control-input-option:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.control-input-option:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.control-input-option + .control-input-option {
+  margin-left: -1px; /* depends on font size and family */
+}
+
+.control-input-option:hover,
+.control-input-option:active,
+.control-input-option.is-selected {
+  background-color: #005a15;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.control-input-option:focus {
+  border: 1px solid #0a6d12;
+}
+
+.control-input-option input {
+  cursor: pointer;
+}
