@@ -1,19 +1,17 @@
 
 /* === Control input option === */
 
-.control-input--option {
-}
 
 .control-input-option {
   display: inline-block;
-  padding: 0 10px;
+  padding: 9px 10px;
   cursor: pointer;
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
   background-color: #00781c;
   background-color: rgba(0, 0, 0, 0.2);
   transition: background 0.1s ease-in;
-  line-height: 40px;
+  line-height: 22px;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
