@@ -1,13 +1,4 @@
 
-/* remove existing join styles */
-.control-input--option {
-  height: auto;
-  border: none !important;
-}
-.control-input__option + .control-input__option {
-  border-color: transparent;
-}
-
 /* === Control input option === */
 
 .control-input--option {
