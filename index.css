@@ -9,3 +9,7 @@
   text-transform: lowercase;
 }
 
+.control-input-label {
+  margin: 0;
+  color: #fff;
+}
