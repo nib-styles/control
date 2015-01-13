@@ -80,7 +80,6 @@
 /* === CONTROL: FEEDBACK TIP === */
 
 .control-feedback-message .tip--direction-up {
-  bottom: 40px;
   margin-top: 6px;
   border-left-width: 6px;
   border-right-width: 6px;
