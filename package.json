@@ -1,0 +1,9 @@
+{
+  "name": "@nib-styles/control",
+  "version": "1.2.1",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/control.git"
+  }
+}
